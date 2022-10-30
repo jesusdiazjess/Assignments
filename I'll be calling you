@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <conio.h>
+void main(){
+    char string[10];
+    printf("Would you like to enter your name?: ");
+    scanf("%s", string);
+    printf("From now on, I'll be calling you: %s",string);
+    getch();
+}
