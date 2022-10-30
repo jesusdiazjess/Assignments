@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <conio.h>
+void main(){
+    int d;
+    printf("Enter Max 5 numbers: ");
+    scanf("%5d",&d);
+    printf("Entered Numbers: %d",d);
+    getch();
+}
