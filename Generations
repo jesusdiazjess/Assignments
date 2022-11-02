@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int age;
+cout << "Please, enter your age: ";
+cin >> age;
+if (age >= 18 && age <= 34)
+{
+cout << "You belong to Millennial Age";
+}
+else if (age >= 35 && age <= 50)
+{
+cout << "You belong to Gen X Age";
+}
+else if (age >= 51 && age <= 69)
+{
+cout << "You belong to Baby Boomer Age";
+}
+else if (age >= 70 && age <= 87)
+{
+cout << "You belong to Silent Generation Age";
+}
+else
+{
+cout << "You do not belong to any age group.";
+}
+return 0;
+}
