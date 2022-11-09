@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main()
+{
+
+    char name[30];
+    char course[30];
+    char yearlevel[30];
+    
+    printf("Please, enter your name: ");
+    fgets(name, sizeof(name), stdin);
+    printf("Your Name is ");
+    puts(name);
+    
+    printf("Please, enter your course: ");
+    fgets(course, sizeof(course), stdin);
+    printf("Your Course is ");
+    puts(course);  
+    
+    printf("Please, enter your year level: ");
+    fgets(yearlevel, sizeof(yearlevel), stdin);
+    printf("Your Year level is ");
+    puts(yearlevel); 
+
+    int i = 30; int k = 5; int c;
+    c = i + k;
+    
+    printf("Line 1 - Value of c is %d\n",c);
+    c = i - k;
+    printf("Line 2 - Value of c is %d\n",c);
+    c = i * k;
+    printf("Line 3 - Value of c is %d\n",c);
+    c = i/k;
+    printf("Line 4 - Value of c is %d\n",c);
+    c = i%k;
+    printf("Line 5 - Value of c is %d\n",c);
+    c = i++;
+    printf("Line 6 - Value of c is %d\n",c);
+    c = i --;
+    printf("Line 7 - Value of c is %d\n",c);
+    
+}
